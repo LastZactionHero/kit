@@ -1,0 +1,58 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# General backup files
+*~
+#*
+.#*
+
+# KiCad backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*-bak.kicad_pcb
+*.kicad_sch-bak
+*-bak.kicad_sch
+_autosave-*
+*.tmp
+
+# KiCad generated files
+*.erc
+*.net
+*-cache.lib
+*-rescue.lib
+*.dcm
+*.gbr
+*.plt
+*.drl
+*.xnc
+*.pos
+*.rpt
+*.bom
+*.xml
+*.csv
+
+# Autorouter files
+*.dsn
+*.ses
+
+# Project local settings
+*.kicad_prl
+*.kicad_pro.user
+*.kicad_sch.user
+
+# Lock files
+*.lck
+~*.lck
+
+# Output directories
+/gerbers/
+/plots/
+/production/
+/fabrication/
+
+# Other
+fp-info-cache
+
+# Custom
+/kit-backups/
+/#auto_saved_files#/

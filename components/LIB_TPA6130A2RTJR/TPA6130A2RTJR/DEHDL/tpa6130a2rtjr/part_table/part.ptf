@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPA6130A2RTJR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPA6130A2RTJR" (!) = "", "QFN50P400X400X80-21N-D", "Quad Flat No-Lead", "595-TPA6130A2RTJR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPA6130A2RTJR?qs=7kv20MEVUlgikVnGJs4DSg%3D%3D", "TEXAS INSTRUMENTS - TPA6130A2RTJR . - Audio Power Amplifier, 138 mW, AB, 2 Channel, 2.5V to 5.5V, QFN, 20 Pins", "https://www.ti.com/lit/ds/symlink/tpa6130a2.pdf", "0.8 mm"
+END_PART
+
+END.

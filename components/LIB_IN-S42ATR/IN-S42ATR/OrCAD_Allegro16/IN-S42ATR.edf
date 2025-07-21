@@ -1,0 +1,188 @@
+
+(EDIF
+  (rename &IN_S42ATR "IN_S42ATR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 07 19 00 38 12)
+      (dataOrigin "1080730/1620765/2.50/2/0/LED")
+      (program "SamacSys ECAD Model IN_S42ATR"
+        (version "1.1"))))
+  (library
+  (rename &IN_S42ATR "IN_S42ATR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &IN_S42ATR "IN_S42ATR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename PACKAGENAME "PackageName") (string "IN_S42ATR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "LEDC1005X55N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "743-IN-S42ATR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S42ATR?qs=qSfuJ%252Bfl%2Fd5DK2RxkNJ2Zg%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Inolux"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "IN-S42ATR"))
+          (property (rename &Description "Description") (string "LED Uni-Color Red 645nm 2-Pin Chip 0402(1006Metric) T/R"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S42AT%20Series_V1.1.pdf"))
+          (property (rename &Height "Height") (string "0.55 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "IN_S42ATR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &K "K")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &A "A")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &K)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -200))))
+            )
+            (portImplementation
+              (name &A)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -200) (pt 500 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 100 -100)
+                  (pt 100 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 150 -100)
+                  (pt 50 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 250 -100)
+                  (pt 150 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -200)
+                  (pt 100 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 300 -200)
+                  (pt 400 -200)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 100 -200)
+                  (pt 300 -100)
+                  (pt 300 -300)
+                  (pt 100 -200)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 110 -30)
+                  (pt 80 -60)
+                  (pt 50 0)
+                  (pt 110 -30)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 210 -30)
+                  (pt 180 -60)
+                  (pt 150 0)
+                  (pt 210 -30)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 400 80))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 400 -20))))
+          )
+        )
+      )
+    )
+  )
+)

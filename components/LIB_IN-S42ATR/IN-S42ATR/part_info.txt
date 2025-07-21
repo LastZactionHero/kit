@@ -1,0 +1,9 @@
+Manufacturer=Inolux
+PartNumber=IN-S42ATR
+PartCategory=LED
+PackageCategory=LEDs Chip
+PinCount=2
+Version=1.1
+Released=2020-10-13 08:49:14
+Downloaded=2025-07-19 00:38:12
+3D=N

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPA6130A2RTJR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-04-07:51:47)
+    (mountForm default
+        (footprintRef "QFN50P400X400X80-21N-D")
+        (spec "System")
+    )
+)

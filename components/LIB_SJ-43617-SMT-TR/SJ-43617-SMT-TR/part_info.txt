@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=SJ-43617-SMT-TR
+PartCategory=Connector
+PackageCategory=Other
+PinCount=7
+Version=5.2
+Released=2019-09-21 21:55:46
+Downloaded=2025-07-19 00:12:23
+3D=Y

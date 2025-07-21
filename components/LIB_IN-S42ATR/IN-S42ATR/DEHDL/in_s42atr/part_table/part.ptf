@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IN_S42ATR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Inolux", "IN-S42ATR" (!) = "", "LEDC1005X55N", "LEDs Chip", "743-IN-S42ATR", "https://www.mouser.co.uk/ProductDetail/Inolux/IN-S42ATR?qs=qSfuJ%252Bfl%2Fd5DK2RxkNJ2Zg%3D%3D", "LED Uni-Color Red 645nm 2-Pin Chip 0402(1006Metric) T/R", "http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S42AT%20Series_V1.1.pdf", "0.55 mm"
+END_PART
+
+END.

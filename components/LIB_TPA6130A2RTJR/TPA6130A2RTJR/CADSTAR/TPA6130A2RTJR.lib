@@ -1,0 +1,16 @@
+.TPA6130A2RTJR :1 ;TEXAS INSTRUMENTS - TPA6130A2RTJR . - Audio Power Amplifier, 138 mW, AB, 2 Channel, 2.5V to 5.5V, QFN, 20 Pins
+QFN50P400X400X80-21N-D
+*STM IC
+*NGS
+*PLB 1="LEFTINM" 2="LEFTINP" 3="GND_1" 4="RIGHTINP" 5="RIGHTINM" 6="'SD'" 7="SDA" 8="SCL" 9="GND_2" 10="GND_3" 11="HPRIGHT" 12="VDD_1" 13="GND_4" 14="HPLEFT" 15="CPVSS_1" 16="CPVSS_2" 17="CPN" 18="CPP" 19="GND_5" 20="VDD_2" 21="THERMAL PAD"
+*MXP 21
+*DFN TPA6130A2RTJR
+~!Mouser Part Number (595-TPA6130A2RTJR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPA6130A2RTJR?qs=7kv20MEVUlgikVnGJs4DSg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPA6130A2RTJR)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tpa6130a2.pdf)
+~!Height (0.8mm)
+~!3D_Model (TPA6130A2RTJR)
+TPA6130A2RTJR
+1.1!I 2.1!I 3.1!G 4.1!I 5.1!I 6.1!I 7.1!U 8.1!I 9.1!G 10.1!G 15.1!P 14.1!Y 13.1!G 12.1!P 11.1!Y 21.1!P 20.1!P 19.1!G 18.1!P 17.1!P 16.1!P 

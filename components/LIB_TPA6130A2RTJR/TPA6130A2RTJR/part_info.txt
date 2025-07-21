@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPA6130A2RTJR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=21
+Version=1.1
+Released=2021-01-04 07:51:47
+Downloaded=2025-07-19 00:04:55
+3D=Y
